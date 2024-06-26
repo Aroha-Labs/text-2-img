@@ -936,6 +936,20 @@ json-schema-traverse@^1.0.0:
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz#ae7bcb3656ab77a73ba5c49bf654f38e6b6860e2"
   integrity sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==
 
+langfuse-core@^3.12.2:
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/langfuse-core/-/langfuse-core-3.12.2.tgz#04f9ee771c9fb6963ae25fc0c3ae2d760685d094"
+  integrity sha512-9YzaHKinivgn9u9sj6j3DlmAAc6GuPZgup2EdQ6ZDnycaQPtBEG7LZWt5X3hgMLO4EpGGoeogXiK+2+Ektuqlw==
+  dependencies:
+    mustache "^4.2.0"
+
+langfuse@^3.12.2:
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/langfuse/-/langfuse-3.12.2.tgz#0a6b1dcaa9903faba7fb6f79fa84668af1508eb2"
+  integrity sha512-PlRsat0cey80nSKGiw2vI7BR7aIBhv88ROhXwOOZvI8JNLLOyq0bMaz5/AOjVrAceRkPne3YNw9QF0vq1i7s5g==
+  dependencies:
+    langfuse-core "^3.12.2"
+
 light-my-request@^5.11.0:
   version "5.13.0"
   resolved "https://registry.yarnpkg.com/light-my-request/-/light-my-request-5.13.0.tgz#b29905e55e8605b77fee2a946e17b219bca35113"
@@ -1046,6 +1060,11 @@ ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
+
+mustache@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/mustache/-/mustache-4.2.0.tgz#e5892324d60a12ec9c2a73359edca52972bf6f64"
+  integrity sha512-71ippSywq5Yb7/tVYyGbkBggbU8H3u5Rz56fH60jGFgr8uHwxs+aSKeqmluIVzM0m0kB7xQjKS6qPfd0b2ZoqQ==
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
