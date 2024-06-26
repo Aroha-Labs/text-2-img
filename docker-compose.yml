@@ -1,0 +1,19 @@
+services:
+  text-2-img:
+    build: ./
+    container_name: text-2-img
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "27336:3000"
+    networks:
+      - infra_services_network
+    logging:
+      driver: gelf
+      options:
+        gelf-address: "udp://localhost:12201" # Logstash UDP input port
+        tag: "text-2-img"
+
+networks:
+  infra_services_network:
+    external: true
