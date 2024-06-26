@@ -27,7 +27,7 @@ const app: FastifyPluginAsync<AppOptions> = async (
           description: "Development server",
         },
         {
-          url: "https://text-2-img.arohalabs.dev",
+          url: "https://text-2-img.stg.arohalabs.dev",
           description: "Staging server",
         },
       ],
